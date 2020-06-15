@@ -30,3 +30,5 @@ Icon : Icon made by Freepik from www.flaticon.com
 Awesome web scraping tutorial which helped me a lot : https://www.youtube.com/watch?v=MX33Yoa-EvE
           
 And thank you for the so many stack-overflow legends!
+
+Site which was used for web scraping : https://www.mohfw.gov.in/
