@@ -2,10 +2,10 @@
 Categories=Utility;
 Comment[en_IN]=
 Comment=
-Exec=/home/$USER/CoronaUpdates/CoronaUpdates[IN].py
+Exec=/home/$USER/Automatic_COVID_19_Updates_IN/CoronaUpdates[IN].py
 GenericName[en_IN]=
 GenericName=
-Icon=/home/$USER/CoronaUpdates/toxic.png
+Icon=/home/$USER/Automatic_COVID_19_Updates_IN/toxic.png
 MimeType=
 Name[en_IN]=c
 Name=c
