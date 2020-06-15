@@ -1,0 +1,21 @@
+[Desktop Entry]
+Categories=Utility;
+Comment[en_IN]=
+Comment=
+Exec=/home/$USER/CoronaUpdates/CoronaUpdates[IN].py
+GenericName[en_IN]=
+GenericName=
+Icon=/home/$USER/CoronaUpdates/toxic.png
+MimeType=
+Name[en_IN]=c
+Name=c
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+Version=1.0
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
