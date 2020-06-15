@@ -6,8 +6,10 @@ Compatability:
 
 This was made in a Linux OS and the files except for the python script will only run in linux. For windows users you should be able to click the python script and it should work. 
 
-NOTE:
-To make the desktop entry file work, make sure to open it in a text editor and change the language as .desktop and also go to properties of the file and make it executable (can also be done with chmod command). And make the python script executable too, if you want it to run on click.
+Note:
+
+To make the desktop entry file work, make sure to open it in a text editor and change the language as .desktop and also go to properties of the file and make sure it is executable (can also be done with chmod command). And make the python script executable too, if you want it to run on click. Also if it fails to run, then make the icon work, and if your icon doesn't work then delete the line Icon='...' from the .desktop file and try running it again.
+
 The modules requests, beautifulsoup4, python3, tkinter, etc are require to run this. Also the icon won't work by default. To make it work, open the desktop entry in a text editor and edit the path of the Icon path attribute to the png/svg(toxic and toxic2 both work.
 Icon=/home/$USER/CoronaUpdates/toxic.png, here change the '$USER' to the name of your username.
 
