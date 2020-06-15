@@ -17,7 +17,9 @@ Icon=/home/$USER/CoronaUpdates/toxic.png, here change the '$USER' to the name of
 
 Installation should be as simple as cloning this repo or downloading it. Once done, open the folder Automatic_COVID_19_Updates_IN and either run the CoronaUpdates.sh or CoronaUpdates[IN] which is a desktop entry to open the program. You can even open the python script from the terminal.
 
-**WARNING : Some websites may not allow web scraping and could even be illegal. Please check the website's policies/get their permission before attempting to scape information from their website. I am not to be held responsible if you get in trouble. **
+**WARNING :**
+
+**Some websites may not allow web scraping and could even be illegal. Please check the website's policies/get their permission before attempting to scape information from their website. I am not to be held responsible if you get in trouble.**
 
 This is python was script made using basic python modules such as requests, beautifulsoup, tkinter, etc. This was made in python3 and runs in python3. 
 
