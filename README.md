@@ -21,8 +21,10 @@ WARNING : Some websites may not allow web scraping and could even be illegal. Pl
 
 This is python was script made using basic python modules such as requests, beautifulsoup, tkinter, etc. This was made in python3 and runs in python3. 
 
-Credits : Icon : Icon made by Freepik from www.flaticon.com
+Credits :
 
-          Awesome web scraping tutorial which helped me a lot : https://www.youtube.com/watch?v=MX33Yoa-EvE
+Icon : Icon made by Freepik from www.flaticon.com
+
+Awesome web scraping tutorial which helped me a lot : https://www.youtube.com/watch?v=MX33Yoa-EvE
           
-          And thank you for the so many stack-overflow legends!
+And thank you for the so many stack-overflow legends!
