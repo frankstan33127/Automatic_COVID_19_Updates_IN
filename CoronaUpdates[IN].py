@@ -21,6 +21,7 @@ def checkstatuscode():
     label4.grid(column=1, row=1)
 #This function defines the variables of the active,inactive and deathcases and passes them to label to be displayed
 def getupdate():
+    #This part outputs the number of active cases
     activecases = str(active)
     for x0 in activecases:
         activecases = activecases.replace("'", "")
@@ -28,6 +29,7 @@ def getupdate():
         activecases = activecases.replace("]", "")
     label1 = Label(root, text="Active cases : " + activecases, font=fontStyle)
     label1.grid(column=0, row=1)
+    #This part outputs the number of inactive cases
     inactivecases = str(inactive)
     for x1 in inactivecases:
         inactivecases = inactivecases.replace("'", "")
@@ -35,13 +37,20 @@ def getupdate():
         inactivecases = inactivecases.replace("]", "")
     label2 = Label(root, text="Inactive cases : " + inactivecases, font=fontStyle)
     label2.grid(column=0, row=2)
+    #This part outputs the total number of cases
+    ac = int(activecases)
+    inac = int(inactivecases)
+    totalcases = ac + inac
+    label3 = Label(root, text="Total Cases : " + str(totalcases), font=fontStyle)
+    label3.grid(column=0,row=3)
+    #This part outputs the number of death cases
     deathcases = str(deaths)
     for x2 in deathcases:
         deathcases = deathcases.replace("'", "")
         deathcases = deathcases.replace("[", "")
         deathcases = deathcases.replace("]", "")
-    label3 = Label(root, text="Deaths : " + deathcases, font=fontStyle)
-    label3.grid(column=0, row=3)
+    label4 = Label(root, text="Deaths : " + deathcases, font=fontStyle)
+    label4.grid(column=0, row=4)
     
 #This part is what grabs the html elements of the page
 soup = BeautifulSoup(req.content, 'html.parser')
