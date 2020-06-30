@@ -2,7 +2,7 @@
 
 An automatic COVID-19 update tool which can be used to get information about COVID-19(for India). The program is made to provide the user with the number of COVID-19 cases(inactive, active and death cases) of India. This uses some basic web scraping from a website. Although, the original script is made to get updates of COVID-19 in India, it can be modified to get updates for your desired country by modifying the source code. The program is update live and therefore you must re-open to see the updates. 
 
-**Compatability:**
+**Compatibility:**
 
 This was made in a Linux OS and the files except for the python script will only run in linux. For windows users you should be able to click the python script and it should work. 
 
